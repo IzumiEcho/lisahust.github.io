@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>博客 · GitBook</title>
+        <title>Git · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Autowired&Resource.html" />
+    <link rel="next" href="linux.html" />
     
     
-    <link rel="prev" href="../关于/readme.html" />
+    <link rel="prev" href="Date.html" />
     
 
     </head>
@@ -164,7 +164,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5" data-path="readme.html">
+        <li class="chapter " data-level="1.5" data-path="readme.html">
             
                 <a href="readme.html">
             
@@ -230,7 +230,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.5" data-path="git.html">
+        <li class="chapter active" data-level="1.5.5" data-path="git.html">
             
                 <a href="git.html">
             
@@ -486,7 +486,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >博客</a>
+        <a href=".." >Git</a>
     </h1>
 </div>
 
@@ -501,7 +501,123 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="blogs--&#x535A;&#x5BA2;">Blogs | &#x535A;&#x5BA2;</h1>
+                                <h1 id="gitlab&#x7B14;&#x8BB0;">gitlab&#x7B14;&#x8BB0;</h1>
+<p>[toc]</p>
+<p><img src="http://kmknkk.oss-cn-beijing.aliyuncs.com/image/git.jpg" alt="img"></p>
+<h3 id="git&#x89C4;&#x8303;">git&#x89C4;&#x8303;</h3>
+<hr>
+<h5 id="git-commit&#x547D;&#x540D;&#x89C4;&#x8303;">git commit&#x547D;&#x540D;&#x89C4;&#x8303;</h5>
+<pre><code>feat&#xFF1A;&#x5B8C;&#x6210;&#x4E00;&#x4E9B;&#x529F;&#x80FD;
+fix&#xFF1A;&#x4FEE;&#x590D;&#x4E00;&#x4E9B;&#x95EE;&#x9898;,&#x5982;&#x679C;&#x6709;jira&#x53F7;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8865;&#x5145;&#x4E0A;&#xFF0C;&#x65B9;&#x4FBF;qa&#x8FDB;&#x884C;&#x95EE;&#x9898;&#x8DDF;&#x8FDB;
+docs&#xFF1A;&#x4E00;&#x4E9B;&#x6587;&#x6863;&#x4FEE;&#x6539;
+style&#xFF1A;&#x6837;&#x5F0F;&#x4FEE;&#x6539;
+refactor&#xFF1A;&#x4E00;&#x4E9B;&#x65E0;&#x5173;&#x529F;&#x80FD;&#x6027;&#x7684;&#x4FEE;&#x6539;&#xFF0C;&#x4F8B;&#x5982;&#x91CD;&#x547D;&#x540D;
+perf&#xFF1A;&#x4E00;&#x4E9B;&#x4F18;&#x5316;&#x91CD;&#x6784;
+test&#xFF1A;&#x6D4B;&#x8BD5;&#x76F8;&#x5173;&#x63D0;&#x4EA4;
+chore&#xFF1A;&#x5F15;&#x5165;&#x4E00;&#x4E9B;&#x7B2C;&#x4E09;&#x65B9;&#x5E93;&#x7B49;
+</code></pre><h5 id="git-branch&#x547D;&#x540D;&#x89C4;&#x8303;">git branch&#x547D;&#x540D;&#x89C4;&#x8303;</h5>
+<pre><code>master&#x2014;&#x2014;&#x6700;&#x4E3A;&#x7A33;&#x5B9A;&#x529F;&#x80FD;&#x6700;&#x4E3A;&#x5B8C;&#x6574;&#x7684;&#x968F;&#x65F6;&#x53EF;&#x53D1;&#x5E03;&#x7684;&#x4EE3;&#x7801;&#xFF1B;
+hotfix&#x2014;&#x2014;&#x4FEE;&#x590D;&#x7EBF;&#x4E0A;&#x4EE3;&#x7801;&#x7684; bug&#xFF1B;
+develop&#x2014;&#x2014;&#x6C38;&#x8FDC;&#x662F;&#x529F;&#x80FD;&#x6700;&#x65B0;&#x6700;&#x5168;&#x7684;&#x5206;&#x652F;&#xFF1B;
+feature&#x2014;&#x2014;&#x67D0;&#x4E2A;&#x529F;&#x80FD;&#x70B9;&#x6B63;&#x5728;&#x5F00;&#x53D1;&#x9636;&#x6BB5;&#xFF1B;
+release&#x2014;&#x2014;&#x53D1;&#x5E03;&#x5B9A;&#x671F;&#x8981;&#x4E0A;&#x7EBF;&#x7684;&#x529F;&#x80FD;&#x3002;
+</code></pre><h3 id="git&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#x672C;&#x5730;&#x5206;&#x652F;-&#xFF5C;-&#x5206;&#x652F;&#x7BA1;&#x7406;">git&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#x672C;&#x5730;&#x5206;&#x652F; &#xFF5C; &#x5206;&#x652F;&#x7BA1;&#x7406;</h3>
+<hr>
+<h5 id="&#x672C;&#x5730;&#x5206;&#x652F;&#x7BA1;&#x7406;">&#x672C;&#x5730;&#x5206;&#x652F;&#x7BA1;&#x7406;</h5>
+<pre><code class="lang-shell">//&#x5217;&#x51FA;&#x6240;&#x6709;&#x5206;&#x652F;
+git branch -a 
+
+//&#x521B;&#x5EFA;&#x672C;&#x5730;&#x5206;&#x652F;miya_test
+git branch miya_test
+
+//&#x5207;&#x6362;&#x5206;&#x652F;miya_test
+git checkout miya_test
+
+//&#x5EFA;&#x7ACB;&#x4E0A;&#x6E38;&#x5206;&#x652F;
+git branch --set-upstream-to=origin/feature/pls_20200803_label
+</code></pre>
+<h5 id="&#x65B0;&#x5EFA;&#x5206;&#x652F;">&#x65B0;&#x5EFA;&#x5206;&#x652F;</h5>
+<pre><code class="lang-shell">//&#x5728;&#x672C;&#x5730;&#x65B0;&#x5EFA;&#x548C;master&#x4E00;&#x6837;&#x7684;&#x5206;&#x652F;
+git checkout -b feature/pls_20200804_circle origin/master
+
+//&#x5728;&#x8FDC;&#x7A0B;&#x65B0;&#x5EFA;&#x548C;&#x672C;&#x5730;&#x540C;&#x540D;&#x7684;&#x5206;&#x652F;
+git push origin HEAD:feature/pls_20200803_label 
+
+//&#x5728;&#x672C;&#x5730;&#x65B0;&#x5EFA;&#x548C;&#x8FDC;&#x7A0B;&#x4E00;&#x6837;&#x7684;&#x5206;&#x652F;
+git fetch
+git checkout feature/pls_20200804_circle
+</code></pre>
+<h5 id="&#x5220;&#x9664;&#x5206;&#x652F;">&#x5220;&#x9664;&#x5206;&#x652F;</h5>
+<pre><code class="lang-shell">//&#x5220;&#x9664;&#x672C;&#x5730;&#x5206;&#x652F;
+git branch -d test  // &#x5220;&#x9664;test&#x5206;&#x652F;
+
+//&#x5220;&#x9664;&#x8FDC;&#x7A0B;&#x5206;&#x652F;
+git push origin --delete feature/pls_user_info_change
+</code></pre>
+<h3 id="git-push">git push</h3>
+<hr>
+<pre><code class="lang-shell">git status //&#x67E5;&#x770B;&#x4EE3;&#x7801;&#x72B6;&#x6001;&#x53D8;&#x5316;
+git add -A //&#x63D0;&#x4EA4;&#x6240;&#x6709;&#x4FEE;&#x6539;&#x5185;&#x5BB9;
+git commit -m &quot;xxxx&quot; //&#x63D0;&#x4EA4;&#x81F3;&#x672C;&#x5730; xxx&#x4E3A;&#x63D0;&#x4EA4;&#x8BF4;&#x660E;&#x6587;&#x5B57;
+git push //&#x63A8;&#x9001;&#x5230;&#x81EA;&#x5DF1;&#x7684;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93; &#x4E00;&#x822C;&#x76F4;&#x63A5; commit and push &#x4E5F;&#x53EF;&#x5206;&#x5F00;&#x4E24;&#x4E2A;&#x6B65;&#x9AA4;
+
+//&#x5C06;&#x672C;&#x5730;&#x4EE3;&#x7801;&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5206;&#x652F;
+git push origin HEAD:feature/20200723_pls_modifynote
+</code></pre>
+<h3 id="git&#x5206;&#x652F;&#x5408;&#x5E76;">git&#x5206;&#x652F;&#x5408;&#x5E76;</h3>
+<pre><code class="lang-shell">git branch --set-upstream-to=origin/master
+
+//&#x6E05;&#x9664;&#x5DF2;commit&#x7684;&#x90E8;&#x5206;(&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x4EE3;&#x7801;)
+git reset origin/master
+//&#x67E5;&#x770B;&#x4EE3;&#x7801;&#x72B6;&#x6001;
+git status
+
+//&#x5BF9;&#x6BD4;origin/master&#xFF0C;&#x63D0;&#x4EA4;&#x81EA;&#x5DF1;&#x6539;&#x52A8;&#x7684;&#x4EE3;&#x7801;&#x90E8;&#x5206;&#xFF0C;&#x4E14;&#x63D0;&#x4EA4;&#x4E3A;&#x4E00;&#x4E2A;commit
+git add src/main/java/com/xiaohongshu/sns/themis/controller/task/label/  
+git commit -m &quot;miya_first_commit&quot; 
+
+//&#x5BF9;&#x4EE3;&#x7801;&#x8FDB;&#x884C;&#x5408;&#x5E76;
+git checkout master
+//&#x9700;&#x8981;&#x663E;&#x793A;&#x201C;&#x5DF2;&#x7ECF;&#x662F;&#x6700;&#x65B0;&#x7684;&#x201D;
+git pull
+git merge miya_test
+
+//merge&#x540E;&#x68C0;&#x67E5;&#x51B2;&#x7A81;&#xFF0C;&#x82E5;&#x6709;&#x6539;&#x52A8;&#x5219;&#x5408;&#x5E76;commit
+mvn clean package
+
+//&#x5408;&#x5E76;commit &#x82E5;&#x6709;&#x51B2;&#x7A81;&#x4E14;&#x8FDB;&#x884C;&#x4E86;&#x66F4;&#x6539;&#x624D;&#x505A;&#x8FD9;&#x4E00;&#x6B65;&#xFF0C;&#x6CA1;&#x6709;&#x4E5F;&#x8981;commit &#x5427;
+git add .
+git commit --amend
+
+//&#x5148;&#x63A8;&#x9001;&#x5230;&#x81EA;&#x5DF1;&#x7684;fix&#x5206;&#x652F; -f &#x662F;&#x4EE3;&#x8868;&#x5F3A;&#x5236;&#x63A8;
+git push origin HEAD:yh-online-fix -f
+
+//&#x5728;gitlab&#x4E0A;&#x68C0;&#x6D4B;&#x65E0;&#x8BEF;&#x540E;&#x63A8;&#x9001;
+git push
+
+
+
+//&#x5408;&#x5E76;&#x4EE3;&#x7801;&#x524D;&#x9700;&#x8981;rebase
+Git rebase -i master
+</code></pre>
+<h3 id="git&#x6E05;&#x9664;&#x63D0;&#x4EA4;">git&#x6E05;&#x9664;&#x63D0;&#x4EA4;</h3>
+<pre><code class="lang-shell">//&#x901A;&#x8FC7;reset&#xFF0C;&#x628A;HEAD&#x6307;&#x9488;&#x6307;&#x5411; origin/master &#x6E05;&#x9664;&#x63D0;&#x4EA4;&#xFF0C;&#x4F46;&#x662F;&#x6CA1;&#x6709;&#x53D8;&#x4EE3;&#x7801;
+git reset origin/master 
+
+//&#x6E05;&#x9664;&#x6240;&#x6709;&#x4FEE;&#x6539;&#xFF0C;&#x4F1A;&#x5220;&#x9664;&#x4EE3;&#x7801;&#xFF01; &#x629B;&#x5F03;&#x6CA1;&#x6709;add&#x7684;&#x4EE3;&#x7801;
+git checkout .
+
+//&#x4E0D;&#x8981;&#x7528; = = &#x6E05;&#x9664;&#x6389;&#x6CA1;&#x6709;add&#x7684;&#x4FEE;&#x6539;
+git clean -f
+git clean -fd
+
+git checkout feature/20200709_test_pls
+</code></pre>
+<h3 id="fatel&#x5F53;&#x524D;&#x5206;&#x652F;&#x6CA1;&#x6709;&#x5BF9;&#x5E94;&#x7684;&#x4E0A;&#x6E38;&#x5206;&#x652F;">fatel:&#x5F53;&#x524D;&#x5206;&#x652F;&#x6CA1;&#x6709;&#x5BF9;&#x5E94;&#x7684;&#x4E0A;&#x6E38;&#x5206;&#x652F;</h3>
+<p>git branch --set-upstream-to=origin/master</p>
+<p>git push origin HEAD &#x63A8;&#x9001;&#x81F3;&#x8FDC;&#x7A0B;&#x540C;&#x540D;&#x5206;&#x652F;(&#x82E5;&#x6CA1;&#x6709;&#x5219;&#x521B;&#x5EFA;)</p>
+<p>&#x4E3A;&#x63A8;&#x9001;&#x5F53;&#x524D;&#x5206;&#x652F;&#x5E76;&#x5EFA;&#x7ACB;&#x4E0E;&#x8FDC;&#x7A0B;&#x4E0A;&#x6E38;&#x7684;&#x8DDF;&#x8E2A;&#xFF0C;&#x4F7F;&#x7528; <code>git push --set-upstream origin master</code></p>
+<p>&#x4E3A;&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x7684;&#x4E0A;&#x6E38;&#x5206;&#x652F;&#xFF0C;&#x4F7F;&#x7528; <code>git push origin HEAD:master</code></p>
 
                                 
                                 </section>
@@ -529,12 +645,12 @@
 
             
                 
-                <a href="../关于/readme.html" class="navigation navigation-prev " aria-label="Previous page: 关于">
+                <a href="Date.html" class="navigation navigation-prev " aria-label="Previous page: Date">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Autowired&Resource.html" class="navigation navigation-next " aria-label="Next page: Autowired Resource">
+                <a href="linux.html" class="navigation navigation-next " aria-label="Next page: Linux">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -545,7 +661,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"博客","level":"1.5","depth":1,"next":{"title":"Autowired Resource","level":"1.5.1","depth":2,"path":"博客/Autowired&Resource.md","ref":"博客/Autowired&Resource.md","articles":[]},"previous":{"title":"关于","level":"1.4","depth":1,"path":"关于/readme.md","ref":"关于/readme.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters-small","livereload"],"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"博客/readme.md","mtime":"2020-07-28T14:29:53.222Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-10T02:47:20.699Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.5.5","depth":2,"next":{"title":"Linux","level":"1.5.6","depth":2,"path":"博客/linux.md","ref":"博客/linux.md","articles":[]},"previous":{"title":"Date","level":"1.5.4","depth":2,"path":"博客/Date.md","ref":"博客/Date.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters-small","livereload"],"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"博客/git.md","mtime":"2020-11-07T09:14:11.307Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-10T02:47:20.699Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
